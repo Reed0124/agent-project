@@ -1,2 +1,2 @@
 # agent-project
-基于 Langchain + RAG的雅思写作助手
+基于 Langchain + RAG的雅思写作Agent
