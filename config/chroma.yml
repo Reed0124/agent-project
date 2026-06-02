@@ -1,0 +1,10 @@
+collection_name: chroma_collection
+persist_directory: chroma_db
+similarity_threshold: 3
+data_path: data
+md5_path: md5.txt
+allowed_knowledge_file_type: ["txt", "pdf"]
+
+chunk_size: 200 # 文本分割器分片大小
+chunk_overlap: 20 # 文本分割器分片重叠大小
+separators: ['.', '。', '?', '？', '!', '！', ';', '；', ':', '：', ' ', '\n']
