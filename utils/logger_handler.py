@@ -4,7 +4,7 @@
 
 import logging
 import os
-from path_tool import get_abs_path
+from utils.path_tool import get_abs_path
 from datetime import datetime
 
 # 日志保存的根目录

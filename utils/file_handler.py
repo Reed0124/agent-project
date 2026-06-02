@@ -1,5 +1,5 @@
 import os, hashlib
-from logger_handler import logger
+from utils.logger_handler import logger
 from langchain_core.documents import Document
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 

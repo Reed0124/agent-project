@@ -1,11 +1,3 @@
-import sys
-from pathlib import Path
-file_path = Path(__file__)
-project_root = file_path.parent.parent    # agent-project
-utils_path = project_root / "utils"       # 把utils目录加入环境变量
-sys.path.append(str(project_root))
-sys.path.append(str(utils_path))
-
 import os
 from langchain_chroma import Chroma
 from utils.config_handler import chroma_config
