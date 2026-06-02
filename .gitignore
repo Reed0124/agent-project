@@ -12,3 +12,4 @@ __pycache__/
 
 logs/
 chroma_db/
+md5.txt

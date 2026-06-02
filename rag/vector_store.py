@@ -122,3 +122,7 @@ if __name__ == '__main__':
     for r in response:
         print(r.page_content)
         print("-"*20)
+    response = retriever.invoke("Reed是谁")
+    for r in response:
+        print(r.page_content)
+        print("-"*20)

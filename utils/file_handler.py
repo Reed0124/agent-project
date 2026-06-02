@@ -66,5 +66,5 @@ def txt_loader(file_path: str) -> list[Document]:
     :param file_path: 文件路径
     :return: list[Document]
     """
-    return TextLoader(file_path).load()
+    return TextLoader(file_path, encoding="utf-8").load()
 
