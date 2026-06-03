@@ -1,5 +1,5 @@
 collection_name: chroma_collection
-persist_directory: chroma_db
+persist_directory: rag/chroma_db
 similarity_threshold: 3
 data_path: data
 md5_path: md5.txt

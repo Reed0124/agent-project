@@ -11,5 +11,5 @@ __pycache__/
 .DS_Store
 
 logs/
-chroma_db/
+rag/chroma_db/
 md5.txt
