@@ -70,3 +70,6 @@ def fetch_external_data(user_id: str, month: str) -> str:
         logger.warning(f"[fetch_external_data] 未找到用户{user_id}的{month}月数据")
         return ""
 
+@tool(description="无入参和返回值，调用触发中间件为报告生成的场景动态注入上下文信息，为后续提示词切换提供上下文信息")
+def fill_context_for_report():
+    return "fill_context_for_report已调用"
