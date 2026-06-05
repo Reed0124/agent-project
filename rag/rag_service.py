@@ -6,7 +6,7 @@ from model.factory import chat_model
 from langchain_core.documents import Document
 
 def print_prompt(prompt):
-    print("="*20)
+    print("=" * 20)
     print(prompt.to_string())
     print("=" * 20)
     return prompt

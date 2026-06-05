@@ -46,7 +46,7 @@ def log_before_model(
     :return:
     """
     logger.info(f"[log_before_model] 模型开始执行,带有{len(state["messages"])}条消息")
-    logger.debug(f"[log_before_model] {type(state['messages'][-1].__name__)} {state["messages"][-1].content.strip()}")
+    logger.debug(f"[log_before_model] {type(state['messages'][-1]).__name__} {state["messages"][-1].content.strip()}")
 
 @dynamic_prompt # 每一次生成提示词前调用（提示词模版）
 def report_prompt_switch(request: ModelRequest):
